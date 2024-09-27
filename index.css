@@ -1,0 +1,58 @@
+.nav{
+    display: flex;  
+    height: 50px;
+    width: auto; 
+    background-color:#000000;
+    }
+ .logo_text{
+ margin-left: 30px;
+ font-size: 30px;
+ margin-top: 10px;
+ color: #fff;
+filter: brightness(100) invert(0);
+}
+nav img{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    filter: brightness(0) invert(1);
+}
+ul{
+   margin-left: 1000px;
+color: #fff;
+
+}
+ ul button{
+    color: #fff;
+height: 30px;
+background-color: crimson;
+border-radius: 3px;
+gap: 30px;
+}
+.cards{
+    display: flex;
+    margin: 10px 20px;
+    text-align: center;
+    padding: 5px 10px;
+ 
+}
+.card{
+    border: 2px solid black;
+    margin: 20px 30px;
+    display: flex;
+}
+.cards, .card img{
+    object-fit: contain;
+    padding-top: 20px;
+}
+p{
+    letter-spacing: 4px;
+}
+.cards .card:hover{
+    transform: scale(1.09);
+}
+.cards .card{
+   
+    transition:transform 420ms;
+}
